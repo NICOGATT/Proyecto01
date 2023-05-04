@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sigmar&display=swap');
+body{
+    background-image: url(../Img/fondo_perritos.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Sigmar', cursive;
+}
+.Menu .Lista {
+    background-color: rgba(77, 227, 227, 0.373);
+    list-style: none;
+    
+}
+.Menu .Lista a{
+    text-decoration: none;
+}
+.Menu .Lista .Lista2{
+    list-style: none;
+}
+.Menu .Lista .Lista2 .Catalogo {
+    list-style: none;
+}
+footer{
+    text-align: center;
+}
+.Logo{
+    width: 200px;
+    height: 150px;
+}
+.presentaciones{
+    font-size: 20px;
+}
+.exposicion1 .Imagen1{
+    width: 550px;
+}
+.exposicion1{
+    margin: 0;
+}
+.exposicion2 .Imagen2{
+    width: 550px; 
+}
+.exposicion2{
+    margin: 0;
+}
