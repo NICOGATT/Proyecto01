@@ -12,8 +12,7 @@ h1{
 }
 .Menu .Lista {
     background-color: rgba(77, 227, 227, 0.373);
-    list-style: none;
-    
+    list-style: none;  
 }
 .Menu .Lista a{
     text-decoration: none;
@@ -38,11 +37,32 @@ footer{
     width: 550px;
 }
 .exposicion1{
-    margin: 0;
+    margin: 20px;
 }
 .exposicion2 .Imagen2{
     width: 550px; 
 }
 .exposicion2{
+    margin: 20px;
+}
+.Registrarse{
+    display: inline;
+}
+/* .RPM{
+    display: inline-block;
+} */
+.Menu .Lista li{
+    display: inline-block;
+} 
+section{
+    border: 1px solid black;
+}
+.exposicion3{
     margin: 0;
+}
+.exposicion3 .Imagen3{
+    width: 550px;
+}
+figure{
+    display: inline-block;
 }
