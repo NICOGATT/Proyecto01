@@ -1,3 +1,4 @@
+/* FUENTE */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sigmar&display=swap');
 body{
     background-image: url(../Img/fondo_perritos.png);
@@ -65,4 +66,8 @@ section{
 }
 figure{
     display: inline-block;
+}
+.bxl-facebook{
+    font-size: 25px;
+    color: black;
 }
