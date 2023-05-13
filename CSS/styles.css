@@ -67,6 +67,7 @@ section{
 }
 figure{
     display: inline-block;
+    border: 1px solid black;
 }
 .bxl-facebook{
     font-size: 25px;
