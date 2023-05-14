@@ -1,7 +1,7 @@
 /* FUENTE */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sigmar&display=swap');
 body{
-    background-image: url(../Img/fondo_perritos.png);
+    background-image: url(../Img/fondoMain.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -10,6 +10,7 @@ body{
 }
 h1{
     font-family: 'Sigmar', cursive;
+    text-align: center;
 }
 .Menu .Lista {
     background-color: rgba(77, 227, 227, 0.373);
@@ -60,7 +61,7 @@ section{
     border: 1px solid black;
 }
 .exposicion3{
-    margin: 0;
+    margin: 20px;
 }
 .exposicion3 .Imagen3{
     width: 550px;
@@ -68,8 +69,16 @@ section{
 figure{
     display: inline-block;
     border: 1px solid black;
+    padding: 20px;
 }
 .bxl-facebook{
+    font-size: 25px;
+    color: black;
+}
+p{
+    margin: 10px;
+}
+.bxl-instagram-alt{
     font-size: 25px;
     color: black;
 }

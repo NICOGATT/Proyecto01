@@ -1,3 +1,21 @@
 footer img{
     width: 50px;
 }
+.tabla{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    border-collapse: collapse;
+}
+.tabla tr th{
+    border-collapse: collapse;
+    padding: 5px;
+    border: 1px solid black;
+}
+.tabla tr td{
+    border: 1px solid black;
+    padding: 5px;
+}
+h2{
+    margin: 10px;
+}
