@@ -106,3 +106,22 @@ main header{
 .Menu{
     background-color: burlywood;
 }
+.Inicio-registro li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.Inicio-registro li a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    background-color: black;
+    color: white;
+}
+.Inicio-registro{
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    left: 1590px;
+}
