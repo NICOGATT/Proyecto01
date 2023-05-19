@@ -10,15 +10,22 @@ body{
 }
 h1{
     font-family: 'Sigmar', cursive;
+    color: black;
+    display: inline-block;
     text-align: center;
+    border: 5px black dotted;
+    padding: 10px;
 }
 .Menu .Lista {
-    background-color: rgba(77, 227, 227, 0.373);
     list-style: none;  
 }
 .Menu .Lista a{
     text-decoration: none;
     color: black;
+}
+.Menu .Lista a:hover{
+    background-color: black;
+    color: white;
 }
 .Menu .Lista .Lista2{
     list-style: none;
@@ -40,13 +47,17 @@ footer{
     width: 550px;
 }
 .exposicion1{
-    margin: 20px;
+    margin: 10px;
+    position: relative;
+    left: 270px;
 }
 .exposicion2 .Imagen2{
     width: 550px; 
 }
 .exposicion2{
     margin: 20px;
+    position: relative;
+    left: 300px;
 }
 .Registrarse{
     display: inline;
@@ -57,11 +68,15 @@ footer{
 .Menu .Lista li{
     display: inline-block;
 } 
-section{
+/* section{
     border: 1px solid black;
-}
+} */
 .exposicion3{
     margin: 20px;
+    display: block;
+    width: 570px;
+    position: relative;
+    left: 260px;
 }
 .exposicion3 .Imagen3{
     width: 550px;
@@ -81,4 +96,13 @@ p{
 .bxl-instagram-alt{
     font-size: 25px;
     color: black;
+}
+.presentacion{
+    text-align: center;
+}
+main header{
+    text-align: center;
+}
+.Menu{
+    background-color: burlywood;
 }
