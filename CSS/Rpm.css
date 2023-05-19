@@ -6,6 +6,8 @@ footer img{
     margin: 10px;
     padding: 5px;
     border-collapse: collapse;
+    position: relative;
+    left: 310px;
 }
 .tabla tr th{
     border-collapse: collapse;
@@ -18,4 +20,13 @@ footer img{
 }
 h2{
     margin: 10px;
+    position: relative;
+    left: 310px;
+}
+p{
+    border: 1px solid black;
+    width: 100vh;
+    margin-right: 5px;
+    position: relative;
+    left: 310px;
 }
