@@ -30,12 +30,15 @@ a{
     border: 1px solid black;
     padding: 0 10px;
 }
-a:hover{
+a:not(.no-hover):hover{
     background-color: black;
     color: white;
 }
 footer{
     text-align: center;
+    border: 1px solid black;
+    position: relative;
+    bottom: 0;
 }
 .Logo{
     width: 200px;
