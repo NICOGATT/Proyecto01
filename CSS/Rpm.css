@@ -30,3 +30,6 @@ p{
     position: relative;
     left: 310px;
 }
+.border{
+    border: none;
+}
