@@ -18,11 +18,11 @@ h1{
 }
 .Menu{
     display: flex;
-    background-color: burlywood;
     border: 2px solid black;
     height: 50px;
     gap: 10px;
     padding: 10px;
+    background-color: rgba(231, 140, 66, 0.897);
 }
 a{
     text-decoration: none;
@@ -72,11 +72,22 @@ footer{
 .exposicion3{
     margin: 20px;
     display: block;
-    width: 570px;
+    width: 550px;
     position: relative;
     left: 260px;
 }
 .exposicion3 .Imagen3{
+    width: 550px;
+}
+.exposicion4{
+    margin: 20px;
+    display: block;
+    width: 550px;
+    position: absolute;
+    left: 925px;
+    top: 865px;
+}
+.exposicion4 .imagen4{
     width: 550px;
 }
 figure{
@@ -100,9 +111,6 @@ p{
 }
 main header{
     text-align: center;
-}
-.Menu{
-    background-color: burlywood;
 }
 .Inicio-registro li{
     list-style: none;
@@ -129,8 +137,8 @@ main header{
     flex-direction: row;
     position: absolute;
     left: 1550px;
-    top: 40px;
-    background-color: red;
+    top: 50px;
+    background-color: rgba(0, 132, 255, 0.9);
     text-align: center;
 }
 .item-1{
