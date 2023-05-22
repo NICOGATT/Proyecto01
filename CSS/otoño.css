@@ -1,3 +1,55 @@
-img{
-    width: 200px;
+div{
+    border: 2px solid black ;
+    height: 1600px;
+    width: 1600px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.contenedor{
+    box-sizing: content-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 150px;
+}
+.articulo1{
+    box-sizing: border-box;
+    height: 500px;
+    width: 400px;
+}
+.articulo2{
+    box-sizing: border-box;
+    width: 400px;
+    height: 500px;
+}
+.articulo3{
+    box-sizing: border-box;
+    width: 400px;
+    height: 500px;
+}
+.articulo4{
+    box-sizing: border-box;
+    width: 400px;
+    height: 500px;
+}
+.articulo5{
+    box-sizing: border-box;
+    width: 400px;
+    height: 500px;
+}
+.articulo6{
+    box-sizing: border-box;
+    width: 400px;
+    height: 500px;
+}
+.articulo7{
+    box-sizing: border-box;
+    width: 400px;
+    height: 500px;
+}
+.margen{
+    margin-top: 0;
 }
