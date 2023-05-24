@@ -1,6 +1,6 @@
 div{
     border: 2px solid black ;
-    height: 1600px;
+    height: 4000px;
     width: 1600px;
     padding: 20px;
     margin-top: 30px;
@@ -9,7 +9,7 @@ div{
     box-sizing: content-box;
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 100px 50px;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -50,6 +50,58 @@ div{
     width: 400px;
     height: 500px;
 }
+.articulo8{
+    box-sizing: border-box;
+    width: 400px;
+    height: 500px;
+}
+.articulo9{
+    box-sizing: border-box;
+    width: 400px;
+    height: 500px;
+}
+.articulo10{
+    box-sizing: border-box;
+    width: 400px;
+    height: 500px;
+}
+.articulo11{
+    box-sizing: border-box;
+    width: 400px;
+    height: 500px;
+}
+.articulo12{
+    box-sizing: border-box;
+    width: 400px;
+    height: 500px;
+}
+.articulo13{
+    box-sizing: border-box;
+    width: 400px;
+    height: 500px;
+}
+.articulo14{
+    box-sizing: border-box;
+    width: 400px;
+    height: 500px;
+}
+.articulo15{
+    box-sizing: border-box;
+    width: 400px;
+    height: 500px;
+}
+.articulo16{
+    box-sizing: border-box;
+    width: 400px;
+    height: 500px;
+}
 .margen{
     margin-top: 0;
+}
+.margen-arriba{
+    margin-top: 30px;
+}
+.margen-abajo{
+    position: relative;
+    bottom: 50px;
 }
