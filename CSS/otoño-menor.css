@@ -1,0 +1,19 @@
+section{
+    margin-top: 40px;
+}
+#Caja{
+    width: 1600px;
+    height: 3500px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    left: 150px;
+}
+#Caja>div{
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 40px;
+}
