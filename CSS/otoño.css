@@ -1,103 +1,19 @@
-div{
-    border: 2px solid black ;
-    height: 4000px;
-    width: 1600px;
-    padding: 20px;
-    margin-top: 30px;
+.tienda{
+    margin: 30px;
 }
-.contenedor{
-    box-sizing: content-box;
+#contenedor{
+    width: 1600px;
+    height: 3500px;
+    border: 2px solid black;
     display: flex;
     flex-wrap: wrap;
-    gap: 100px 50px;
     justify-content: center;
-    align-items: center;
     position: relative;
     left: 150px;
 }
-.articulo1{
-    box-sizing: border-box;
-    height: 500px;
-    width: 400px;
-}
-.articulo2{
-    box-sizing: border-box;
+#contenedor>div{
     width: 400px;
     height: 500px;
-}
-.articulo3{
-    box-sizing: border-box;
-    width: 400px;
-    height: 500px;
-}
-.articulo4{
-    box-sizing: border-box;
-    width: 400px;
-    height: 500px;
-}
-.articulo5{
-    box-sizing: border-box;
-    width: 400px;
-    height: 500px;
-}
-.articulo6{
-    box-sizing: border-box;
-    width: 400px;
-    height: 500px;
-}
-.articulo7{
-    box-sizing: border-box;
-    width: 400px;
-    height: 500px;
-}
-.articulo8{
-    box-sizing: border-box;
-    width: 400px;
-    height: 500px;
-}
-.articulo9{
-    box-sizing: border-box;
-    width: 400px;
-    height: 500px;
-}
-.articulo10{
-    box-sizing: border-box;
-    width: 400px;
-    height: 500px;
-}
-.articulo11{
-    box-sizing: border-box;
-    width: 400px;
-    height: 500px;
-}
-.articulo12{
-    box-sizing: border-box;
-    width: 400px;
-    height: 500px;
-}
-.articulo13{
-    box-sizing: border-box;
-    width: 400px;
-    height: 500px;
-}
-.articulo14{
-    box-sizing: border-box;
-    width: 400px;
-    height: 500px;
-}
-.articulo15{
-    box-sizing: border-box;
-    width: 400px;
-    height: 500px;
-}
-.articulo16{
-    box-sizing: border-box;
-    width: 400px;
-    height: 500px;
-}
-.margen{
-    margin-top: 0;
-}
-.margen-arriba{
-    margin-top: 30px;
+    border: 2px solid black;
+    margin: 40px;
 }
