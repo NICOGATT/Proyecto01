@@ -17,3 +17,47 @@
     border: 2px solid black;
     margin: 40px;
 }
+img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 40px;
+}
+h3{
+    margin: 0 10px;
+}
+p{
+    margin: 0 10px;
+}
+#circulo{
+    width: 300px;
+    height: 60px;
+    border: 2px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#circulo>div{
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(24, 129, 228, 0.61);
+}
+.tamaño{
+    font-size: 25px;
+    text-align: center;
+    padding: 0;
+}
+.t1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
