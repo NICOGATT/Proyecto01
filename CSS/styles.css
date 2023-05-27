@@ -166,3 +166,7 @@ main header{
 .no-border{
     border: none;
 }
+#inicio{
+    position: relative;
+    left: 35px;
+}
