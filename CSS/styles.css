@@ -80,9 +80,6 @@ footer{
 .Registrarse{
     display: inline;
 }
-/* .RPM{
-    display: inline-block;
-} */
 .exposicion3{
     margin: 20px;
     display: block;
@@ -100,7 +97,7 @@ footer{
     height: 383px;
     position: absolute;
     left: 915px;
-    top: 940px;
+    top: 496px;
 }
 .exposicion4 .imagen4{
     width: 550px;
@@ -124,6 +121,7 @@ p{
 .presentacion{
     text-align: center;
     background-color: rgba(231, 140, 66, 0.897);
+    width: 800px;
 }
 main header{
     text-align: center;
