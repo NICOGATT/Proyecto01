@@ -23,10 +23,11 @@ h1{
     color: white;
     display: inline-block;
     text-align: center;
-    border-bottom: 6px orange dotted;
+    border-bottom: 9px orange dotted;
     padding-bottom: 0;
     -webkit-text-stroke: 2px black;
     height: 48px;
+    margin-top: 10px;
 }
 .Menu{
     display: flex;
@@ -97,7 +98,7 @@ footer{
     height: 383px;
     position: absolute;
     left: 915px;
-    top: 496px;
+    top: 525px;
 }
 .exposicion4 .imagen4{
     width: 550px;
@@ -119,9 +120,11 @@ p{
     color: black;
 }
 .presentacion{
-    text-align: center;
-    background-color: rgba(231, 140, 66, 0.897);
+    background-color: rgb(231, 140, 66);
     width: 800px;
+    position: relative;
+    left: 450px;
+    font-size: 20px;
 }
 main header{
     text-align: center;
@@ -167,4 +170,7 @@ main header{
 #inicio{
     position: relative;
     left: 35px;
+}
+figure figcaption{
+    background-color: orange;
 }
