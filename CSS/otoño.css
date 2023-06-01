@@ -1,5 +1,5 @@
 .tienda{
-    margin: 30px;
+    margin: 0px;
 }
 #contenedor{
     width: 1600px;
@@ -61,14 +61,35 @@ p{
     justify-content: center;
     align-items: center;
 }
+.t3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .boton{
-    width: 100px;
-    border: 1px solid black;
+    width: 200px;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: flex-end;
     position: relative;
-    left: 280px;
+    left: 200px;
+    top: 10px;
 }
 .boton button{
     margin: 10px;
+    height: 40px;
+    width: 200px;
+    background-color: green;
+    color: white;
+    font-size: 17px;
 }
