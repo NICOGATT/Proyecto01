@@ -4,11 +4,6 @@
     margin: 0;
 }
 body{
-    /* background-image: url(../Img/fondoMain.jpg); */
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
     font-family: 'Roboto', sans-serif;
 }
 main{
@@ -17,6 +12,7 @@ main{
     background-size: cover;
     background-position: center;
     height: 1050px;
+    background-attachment: fixed;
 }
 h1{
     font-family: 'Sigmar', cursive;
@@ -54,6 +50,7 @@ footer{
     bottom: 0;
     background-color: cadetblue;
     height: 80px;
+    width: 100%;
 }
 .Logo{
     width: 1950px;
