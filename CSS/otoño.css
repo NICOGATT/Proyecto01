@@ -1,6 +1,4 @@
-.tienda{
-    margin: 0px;
-}
+
 #contenedor{
     width: 1600px;
     height: 3500px;
@@ -18,8 +16,7 @@
     margin: 40px;
 }
 img{
-    width: 300px;
-    height: 300px;
+    width: 250px;
     position: relative;
     left: 40px;
 }
@@ -76,6 +73,11 @@ p{
     justify-content: center;
     align-items: center;
 }
+.t6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .boton{
     width: 200px;
     /* border: 1px solid black; */
@@ -93,3 +95,6 @@ p{
     color: white;
     font-size: 17px;
 }
+.tienda{
+    margin-top: 40px;
+} 
