@@ -1,48 +1,110 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/styles.css" >
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="Boostrap/CSS/bootstrap.min.css" />
     <title>DESIGN STATION</title>
   </head>
   <body>
     <header>
       <div class="container" id="escritorio">
-        <img src="Img/giniel.webp" alt="giniel" class="column1">
-        <img src="Img/RPM.png" alt="RPM" class="column2">
-        <img src="Img/RPPro-urban.png" alt="RPPro urban" class="column3">
-        <img src="Img/RPPro2.png" alt="RPPro" class="column4">
+        <img src="Img/giniel.webp" alt="giniel" class="column1 Tamaño" />
+        <img src="Img/RPM.png" alt="RPM" class="column2" />
+        <img src="Img/RPPro-urban.png" alt="RPPro urban" class="column3" />
+        <img src="Img/RPPro2.png" alt="RPPro" class="column4" />
         <div class="content" class="column5">
-          <a href="signin.html" class="inicio-registro item-1">Iniciar sesion</a>
+          <a href="signin.html" class="inicio-registro item-1"
+            >Iniciar sesion</a
+          >
           <a href="signup.html" class="inicio-registro item-2">Registrarse</a>
         </div>
       </div>
       <div id="logo-movil">
-        <img src="Img/Logo2.png" alt="Logo design station">
+        <img src="Img/Logo2.png" alt="Logo design station" />
         <div class="content" class="column6">
-          <a href="signin.html" class="inicio-registro item-1">Iniciar sesion</a>
+          <a href="signin.html" class="inicio-registro item-1"
+            >Iniciar sesion</a
+          >
           <a href="signup.html" class="inicio-registro item-2">Registrarse</a>
         </div>
       </div>
     </header>
-    <nav class="Menu color">
-     <ul class="navegacion">
-      <li><a href="#">Inicio</a></li>
-      <li><a href="Tienda/RPM.html">RPM (Ropa Para Mascotas)</a></li>
-      <li><a href="Tienda/RPPRO.html">RPPRO (Ropa Para Profesionales)</a></li>
-      <li><a href="Tienda/GINIEL.html">GINIE'L</a></li>
-      <li><a href="Contacto o info/Contacto.html">Contacto</a></li>
-     </ul>
+    <nav class="container navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-a2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="Tienda/RPM.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >RPM (Ropa Para Mascotas)</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#" class="dropdown-item">Accesorios</a>
+                  </li>
+                  <li><a href="#" class="dropdown-item">Chalecos</a></li>
+                  <li><a href="#" class="dropdown-item">Moiseses</a></li>
+                  <li><a href="#" class="dropdown-item">Camperas</a></li>
+                  <li><a href="#" class="dropdown-item">Busos</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" href="Tienda/RPPRO.html">RPPRO (Ropa Para Profesionales)</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#" class="dropdown-item">Chaquetas</a>
+                </li>
+                <li><a href="#" class="dropdown-item">Pantalones</a></li>
+                <li><a href="#" class="dropdown-item">Delantales</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="Tienda/GINIEL.html">GINIE'L</a>
+              <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">Carteras y bolsos</a></li>
+                <li><a href="#" class="dropdown-item">Bandoleras</a></li>
+                <li><a href="#" class="dropdown-item">Set matero</a></li>
+                <li><a href="#" class="dropdown-item">Bufandas</a></li>
+                <li><a href="#" class="dropdown-item">Sacones</a></li>
+                <li><a href="#" class="dropdown-item">Cartucheras y Neceser</a></li>
+              </ul>
+            </li>
+            <li><a class="nav-link active" aria-current="page" href="Contacto o info/Contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
-    <aside>
+    <aside class="container">
       <p>Aside</p>
     </aside>
-    <main>
+    <main class="container">
       <header>
         <h1>Eventos</h1>
       </header>
@@ -51,17 +113,18 @@
           Hola. Como andan gente? Aqui les dejo unas breves presentaciones de
           los fue todos estos años para nosotros.
         </p>
-          <div class="imagenes">
-            <div class="expo1"></div>
-            <div class="expo1"></div>
-            <div class="expo1"></div>
-            <div class="expo1"></div>
-          </div>
+        <div class="imagenes">
+          <div class="expo1"></div>
+          <div class="expo1"></div>
+          <div class="expo1"></div>
+          <div class="expo1"></div>
+        </div>
       </section>
     </main>
     <footer>
       <p>Disfuten esta pagina creada por <strong>Nicolas Gatti</strong></p>
     </footer>
     <script src="JS/script.js"></script>
+    <script src="Boostrap/JS/bootstrap.bundle.min.js"></script>
   </body>
 </html>
