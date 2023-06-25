@@ -10,6 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="CSS/styles.css" />
     <link rel="stylesheet" href="Boostrap/CSS/bootstrap.min.css" />
     <title>DESIGN STATION</title>
@@ -21,36 +25,42 @@
         <img src="Img/RPM.png" alt="RPM" class="column2" />
         <img src="Img/RPPro-urban.png" alt="RPPro urban" class="column3" />
         <img src="Img/RPPro2.png" alt="RPPro" class="column4" />
-        <div class="content" class="column5">
+        <div class="column5 content">
           <a href="signin.html" class="inicio-registro item-1"
-            >Iniciar sesion</a
-          >
-          <a href="signup.html" class="inicio-registro item-2">Registrarse</a>
+            ><i class="bx bx-user-circle"></i
+          ></a>
+          <a href="signup.html" class="inicio-registro item-2"
+            ><i class="bx bx-user-plus"></i
+          ></a>
+          <i class="bx bx-cart"></i>
         </div>
       </div>
       <div id="logo-movil">
         <img src="Img/Logo2.png" alt="Logo design station" />
         <div class="content" class="column6">
           <a href="signin.html" class="inicio-registro item-1"
-            >Iniciar sesion</a
-          >
-          <a href="signup.html" class="inicio-registro item-2">Registrarse</a>
+            ><i class="bx bx-user-circle"></i
+          ></a>
+          <a href="signup.html" class="inicio-registro item-2"
+            ><i class="bx bx-user-plus"></i
+          ></a>
+          <i class="bx bx-cart"></i>
         </div>
       </div>
     </header>
     <nav class="container navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
         <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-a2 mb-lg-0">
             <li class="nav-item">
@@ -63,20 +73,35 @@
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-                >RPM (Ropa Para Mascotas)</a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a href="#" class="dropdown-item">Accesorios</a>
-                  </li>
-                  <li><a href="#" class="dropdown-item">Chalecos</a></li>
-                  <li><a href="#" class="dropdown-item">Moiseses</a></li>
-                  <li><a href="#" class="dropdown-item">Camperas</a></li>
-                  <li><a href="#" class="dropdown-item">Busos</a></li>
-                </ul>
+                >RPM (Ropa Para Mascotas)</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="Tienda/accesorios.html" class="dropdown-item">Accesorios</a>
+                </li>
+                <li>
+                  <a href="Tienda/Chalecos.html" class="dropdown-item">Chalecos</a>
+                </li>
+                <li>
+                  <a href="Tienda/moises.html" class="dropdown-item">Moiseses</a>
+                </li>
+                <li>
+                  <a href="Tienda/Camperas.html" class="dropdown-item">Camperas</a>
+                </li>
+                <li>
+                  <a href="Tienda/busos.html" class="dropdown-item">Busos</a>
+                </li>
+              </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false" href="Tienda/RPPRO.html">RPPRO (Ropa Para Profesionales)</a>
+              <a
+                class="nav-link dropdown-toggle"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                href="Tienda/RPPRO.html"
+                >RPPRO (Ropa Para Profesionales)</a
+              >
               <ul class="dropdown-menu">
                 <li>
                   <a href="#" class="dropdown-item">Chaquetas</a>
@@ -86,17 +111,33 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="Tienda/GINIEL.html">GINIE'L</a>
+              <a
+                class="nav-link dropdown-toggle"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                href="Tienda/GINIEL.html"
+                >GINIE'L</a
+              >
               <ul class="dropdown-menu">
                 <li><a href="#" class="dropdown-item">Carteras y bolsos</a></li>
                 <li><a href="#" class="dropdown-item">Bandoleras</a></li>
                 <li><a href="#" class="dropdown-item">Set matero</a></li>
                 <li><a href="#" class="dropdown-item">Bufandas</a></li>
                 <li><a href="#" class="dropdown-item">Sacones</a></li>
-                <li><a href="#" class="dropdown-item">Cartucheras y Neceser</a></li>
+                <li>
+                  <a href="#" class="dropdown-item">Cartucheras y Neceser</a>
+                </li>
               </ul>
             </li>
-            <li><a class="nav-link active" aria-current="page" href="Contacto o info/Contacto.html">Contacto</a></li>
+            <li>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="Contacto o info/Contacto.html"
+                >Contacto</a
+              >
+            </li>
           </ul>
         </div>
       </div>
@@ -104,7 +145,7 @@
     <aside class="container">
       <p>Aside</p>
     </aside>
-    <main class="container">
+    <main class="container flex">
       <header>
         <h1>Eventos</h1>
       </header>
@@ -113,11 +154,16 @@
           Hola. Como andan gente? Aqui les dejo unas breves presentaciones de
           los fue todos estos años para nosotros.
         </p>
-        <div class="imagenes">
-          <div class="expo1"></div>
-          <div class="expo1"></div>
-          <div class="expo1"></div>
-          <div class="expo1"></div>
+        <div class="card">
+          <img
+            src="Img/Exposiciones/1_Parque_Responsive_26.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Costa salguero</h5>
+            <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
         </div>
       </section>
     </main>
