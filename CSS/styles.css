@@ -14,7 +14,7 @@ body{
     font-family: 'Roboto', sans-serif;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 9% 1fr 100em 15em;
+    grid-template-rows: 10% 1fr 100em 15em;
     grid-template-areas: 
     "header"
     "nav"
@@ -47,7 +47,6 @@ nav ul{
 nav{
     grid-area: nav;
     width: 100%;
-    margin-top: 50px;
 }
 aside{
     display: none;
@@ -83,7 +82,7 @@ footer{
 .column5{
     grid-column: 5/6;
     display: grid;
-    grid-template-columns: repeat(3, 4rem);
+    grid-template-columns: repeat(2, 4rem);
     justify-items: center;
     align-items: center;
 }
@@ -95,7 +94,7 @@ footer{
     grid-column: 1/2;
 }
 .bx-cart{
-    grid-column: 3/4;
+    grid-column: 2/3;
 }
 .bx-user-plus{
     grid-column: 2/3;
@@ -108,11 +107,11 @@ footer{
 }
 #logo-movil{
     display: grid;
-    grid-template-columns: repeat(2, 60%);
+    grid-template-columns: 50% 30%;
+    grid-template-rows: 90%;
     width: 100%;
     justify-items: center;
     align-items: center;
-    justify-content: center;
 }
 #logo-movil>img{
     width: 100%;
@@ -146,7 +145,7 @@ footer p{
 }
 .content{
     border: 2px solid black;
-    width: 70%;
+    width: 50%;
     background-color: #00bbf9;
 } 
 .content a{
@@ -197,6 +196,9 @@ footer p{
     aside{
         display: block;
         grid-area: aside;
+    }
+    nav{
+        grid-area: nav;
     }
 }
 
