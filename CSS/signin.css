@@ -1,0 +1,19 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10% 1fr 100em 15em;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+  color: black;
+}
+main {
+  border: 5px solid black;
+  margin: 0px auto;
+  width: 80%;
+}
+form {
+  border: 2px black solid;
+}
