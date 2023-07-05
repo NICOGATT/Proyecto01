@@ -1,89 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/styles.css">
-    <link rel="stylesheet" href="../CSS/otoño.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../CSS/styles.css" />
+    <link rel="stylesheet" href="../CSS/otoño.css" />
+    <link rel="stylesheet" href="../Boostrap/CSS/bootstrap.min.css" />
     <title>DESIGN STATION</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="container">
-          <img src="../Img/giniel.webp" alt="giniel">
-          <img src="../Img/RPM.png" alt="RPM">
-          <form action="">
-            <label for="search">Buscar:</label>
-            <input type="search" name="Buscar" id="search">
-          </form>
-          <img src="../Img/RPPro-urban.png" alt="RPPro urban">
-          <img src="../Img/RPPro2.png" alt="RPPro">
+      <div class="container" id="escritorio">
+        <img src="../Img/giniel.webp" alt="giniel" class="column1 Tamaño" />
+        <img src="../Img/RPM.png" alt="RPM" class="column2" />
+        <img src="../Img/RPPro-urban.png" alt="RPPro urban" class="column3" />
+        <img src="../Img/RPPro2.png" alt="RPPro" class="column4" />
+        <div class="column5 content">
+          <a href="../signin.html" class="inicio-registro item-1"
+            ><i class="bx bx-user-circle"></i
+          ></a>
+          <i class="bx bx-cart"></i>
         </div>
-        <nav class="Menu">
-          <a href="../index.html">Inicio</a>
-          <a href="../Tienda/RPM.html">
-            RPM (Ropa Para Mascotas)
-            <a href="../Tienda/Mayor.html">Compra por mayor</a>
-            <a href="../Tienda/otoño.html">Catalogo Otoño-Invierno</a>
-            <a href="">Catalogo Primavera-Verano</a>
-            <a href="">Compra por menor</a>
-            <a href="">Catalogo Otoño-Invierno</a>
-            <a href="">Catalogo Primavera-Verano</a>
-            <a href="">RPM-Glam</a>
-          </a>
-          <a href="Tienda/RPPRO.html">RPPRO (Ropa Para Profesionales)</a>
-          <a href="">Ginie'l</a>
-          <a href="">Contacto</a>
-        </nav>
-      </header>
-      <main>
-            <section class="tienda">
-              <div id="contenedor">
-                <div class="articulo1">
-                  <img src="../Img/Fondo-blanco/Cam pl roj.jpg" alt="Campera de polar" class="transition">
-                  <h3>Campera de polar</h3>
-                  <p>Talles:</p>
-                  <div id="circulo">
-                    <div class="t1">
-                      <a href="https://articulo.mercadolibre.com.ar/MLA-1323492312-campera-para-mascotas-de-polar-talle-1-_JM" target="_blank" class="no-border no-hover tamaño">1</a>
-                    </div>
-                    <div class="t2">
-                      <a href="https://articulo.mercadolibre.com.ar/MLA-1329648691-campera-para-mascotas-de-polar-talle-2-_JM" target="_blank" class="no-border no-hover tamaño">2</a>
-                    </div>
-                    <div class="t3">
-                      <a href="https://articulo.mercadolibre.com.ar/MLA-1329489022-campera-para-mascotas-de-polar-talle-3-_JM" target="_blank" class="no-border no-hover tamaño">3</a>
-                    </div>
-                    <div class="t4">
-                      <a href="https://articulo.mercadolibre.com.ar/MLA-1329379202-campera-para-mascotas-de-polar-talle-4-_JM" target="_blank" class="no-border no-hover tamaño">4</a>
-                    </div>
-                    <div class="t5">
-                      <a href="https://articulo.mercadolibre.com.ar/MLA-1329527289-campera-para-mascotas-de-polar-talle-5-_JM" target="_blank" class="no-border no-hover tamaño">5</a>
-                    </div>
-                    <div class="t6">
-                      <a href="https://articulo.mercadolibre.com.ar/MLA-1329527296-campera-para-mascotas-de-polar-talle-6-_JM" target="_blank" class="no-border no-hover tamaño">6</a>
-                    </div>
-                  </div>
-                  <div class="boton" id="inline">
-                    <button>Añadir al carrito</button>
-                  </div>
-                </div>
-                <div class="articulo2"></div>
-                <div class="articulo3"></div>
-                <div class="articulo4"></div>
-                <div class="articulo5"></div>
-                <div class="rticulo6"></div>
-                <div class="articulo7"></div>
-                <div class="articulo8"></div>
-                <div class="articulo9"></div>
-                <div class="articulo10"></div>
-                <div class="articulo11"></div>
-                <div class="articulo12"></div>
-                <div class="articulo13"></div>
-                <div class="articulo14"></div>
-                <div class="articulo15"></div>
-                <div class="articulo16"></div>
+      </div>
+      <div id="logo-movil">
+        <img src="../Img/Logo2.png" alt="Logo design station" />
+        <div class="content" class="column6">
+          <a href="signin.html" class="inicio-registro item-1"
+            ><i class="bx bx-user-circle"></i
+          ></a>
+          <a href="signup.html" class="inicio-registro item-2"
+            ><i class="bx bx-user-plus"></i
+          ></a>
+          <i class="bx bx-cart"></i>
+        </div>
+      </div>
+    </header>
+    <nav class="container navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-a2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >RPM (Ropa Para Mascotas)</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="../Tienda/accesorios.html" class="dropdown-item">Accesorios</a>
+                </li>
+                <li>
+                  <a href="Tienda/Chalecos.html" class="dropdown-item">Chalecos</a>
+                </li>
+                <li>
+                  <a href="Tienda/moises.html" class="dropdown-item">Moiseses</a>
+                </li>
+                <li>
+                  <a href="Tienda/Camperas.html" class="dropdown-item">Camperas</a>
+                </li>
+                <li>
+                  <a href="Tienda/busos.html" class="dropdown-item">Busos</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                href="Tienda/RPPRO.html"
+                >RPPRO (Ropa Para Profesionales)</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#" class="dropdown-item">Chaquetas</a>
+                </li>
+                <li><a href="#" class="dropdown-item">Pantalones</a></li>
+                <li><a href="#" class="dropdown-item">Delantales</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                href="Tienda/GINIEL.html"
+                >GINIE'L</a
+              >
+              <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">Carteras y bolsos</a></li>
+                <li><a href="#" class="dropdown-item">Bandoleras</a></li>
+                <li><a href="#" class="dropdown-item">Set matero</a></li>
+                <li><a href="#" class="dropdown-item">Bufandas</a></li>
+                <li><a href="#" class="dropdown-item">Sacones</a></li>
+                <li>
+                  <a href="#" class="dropdown-item">Cartucheras y Neceser</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="Contacto o info/Contacto.html"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container">
+        <div id="contenedor">
+          <div class="articulo1">
+            <div class="cajaimg">
+              <img
+              src="../Img/catalogo/bolso-transportador.jpg"
+              alt="Campera de polar"
+              class="transition"
+            />
+            </div>
+            <div class="text">
+              <h3>Campera de polar</h3>
+              <p>Talles:</p>
+            </div>
+            <div id="circulo">
+              <div class="t1">
+                <a
+                  href="https://articulo.mercadolibre.com.ar/MLA-1323492312-campera-para-mascotas-de-polar-talle-1-_JM"
+                  target="_blank"
+                  class="no-border no-hover tamaño"
+                  >1</a
+                >
               </div>
-            </section>
-      </main>
-</body>
+              <div class="t2">
+                <a
+                  href="https://articulo.mercadolibre.com.ar/MLA-1329648691-campera-para-mascotas-de-polar-talle-2-_JM"
+                  target="_blank"
+                  class="no-border no-hover tamaño"
+                  >2</a
+                >
+              </div>
+              <div class="t3">
+                <a
+                  href="https://articulo.mercadolibre.com.ar/MLA-1329489022-campera-para-mascotas-de-polar-talle-3-_JM"
+                  target="_blank"
+                  class="no-border no-hover tamaño"
+                  >3</a
+                >
+              </div>
+              <div class="t4">
+                <a
+                  href="https://articulo.mercadolibre.com.ar/MLA-1329379202-campera-para-mascotas-de-polar-talle-4-_JM"
+                  target="_blank"
+                  class="no-border no-hover tamaño"
+                  >4</a
+                >
+              </div>
+              <div class="t5">
+                <a
+                  href="https://articulo.mercadolibre.com.ar/MLA-1329527289-campera-para-mascotas-de-polar-talle-5-_JM"
+                  target="_blank"
+                  class="no-border no-hover tamaño"
+                  >5</a
+                >
+              </div>
+              <div class="t6">
+                <a
+                  href="https://articulo.mercadolibre.com.ar/MLA-1329527296-campera-para-mascotas-de-polar-talle-6-_JM"
+                  target="_blank"
+                  class="no-border no-hover tamaño"
+                  >6</a
+                >
+              </div>
+            </div>
+            <div class="boton info">
+              <p></p>
+              <button>Añadir al carrito</button>
+            </div>
+          </div>
+          <div class="articulo2"></div>
+          <div class="articulo3"></div>
+          <div class="articulo4"></div>
+          <div class="articulo5"></div>
+          <div class="rticulo6"></div>
+          <div class="articulo7"></div>
+          <div class="articulo8"></div>
+          <div class="articulo9"></div>
+          <div class="articulo10"></div>
+          <div class="articulo11"></div>
+          <div class="articulo12"></div>
+          <div class="articulo13"></div>
+          <div class="articulo14"></div>
+          <div class="articulo15"></div>
+          <div class="articulo16"></div>
+        </div>
+    </main>
+
+    <script src="../Boostrap/JS/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
