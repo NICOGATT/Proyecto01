@@ -4,12 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="../Boostrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/signin.css">
     <title>DESIGN STATION</title>
 </head>
 <body>
+    <header>
+        <div class="container" id="escritorio">
+          <img src="Img/giniel.webp" alt="giniel" class="column1 Tamaño" />
+          <img src="Img/RPM.png" alt="RPM" class="column2" />
+          <img src="Img/RPPro-urban.png" alt="RPPro urban" class="column3" />
+          <img src="Img/RPPro2.png" alt="RPPro" class="column4" />
+          <!-- <div class="column5 content">
+            <a href="signin.html" class="inicio-registro item-1"
+              ><i class="bx bx-user-circle"></i
+            ></a>
+            <a href="signup.html" class="inicio-registro item-2"
+              ><i class="bx bx-user-plus"></i
+            ></a>
+            <i class="bx bx-cart"></i>
+          </div> -->
+        </div>
+        <div id="logo-movil">
+          <img src="Img/Logo2.png" alt="Logo design station" />
+          <!-- <div class="content" class="column6">
+            <a href="signin.html" class="inicio-registro item-1"
+              ><i class="bx bx-user-circle"></i
+            ></a>
+            <a href="signup.html" class="inicio-registro item-2"
+              ><i class="bx bx-user-plus"></i
+            ></a>
+            <i class="bx bx-cart"></i>
+          </div> -->
+        </div>
+      </header>
     <main>
-        <img src="Img/Logo2.png" alt="Logo design station">
-        
+        <form action="">
+            <div class="email">
+                <label for="mail" class="formLabel">Correo electronico</label>
+                <input type="email" name="mail" id="mail" class="form-control">
+                <div id="emailAyuda" class="text">
+                    <p>Nunca compartiremos tu correo electronico con nadie mas</p>
+                </div>
+            </div>
+            <div class="contra">
+                <label for="password" class="formLabel">Contraseña</label>
+                <input type="password" name="password" id="password" class="form-control">
+            </div>
+            <div class="formCheck">
+                <input type="checkbox" name="checkPassword" id="checkPassword" class="form-check-input">
+                <label for="checkPassword">Mostrar contraseña</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Iniciar sesion</button>
+        </form>
     </main>
+
+    <script src="../Boostrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
