@@ -22,12 +22,13 @@ h3{
 }
 p{
     margin: 0;
+    margin-bottom: 0;
 }
 #circulo{
     width: 300px;
     height: 60px;
-    border: 2px solid black;
     margin: 10px;
+    margin-bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,16 +79,15 @@ p{
     align-items: center;
 }
 .boton{
-    width: 200px;
-    /* border: 1px solid black; */
+    width: 98%;
+    border: 1px solid black;
     display: flex;
-    justify-content: flex-end;
-    position: relative;
-    left: 200px;
+    justify-content: space-between;
+    align-items: center;
 }
 .boton button{
     height: 40px;
-    width: 200px;
+    width: 150px;
     background-color: green;
     color: white;
     font-size: 17px;
@@ -98,4 +98,7 @@ p{
 
 .navbar-toggler{
     font-size: 100px;
+}
+.articulo1{
+    padding: 10px;
 }
