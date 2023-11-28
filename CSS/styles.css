@@ -16,13 +16,14 @@ body{
     font-family: 'Roboto', sans-serif;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10% 1fr 100em 15em;
+    grid-template-rows: 5% 1fr 100em 15em;
     grid-template-areas: 
     "header"
     "nav"
     "main"
     "footer";
     color: black;
+    justify-items: center;
 }
 img{
     max-width: 100%;
@@ -48,9 +49,10 @@ footer{
 }
 #escritorio{
     display: grid;
-    grid-template-columns: repeat(5, 22%);
-    justify-items: center;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: 80%;
     align-items: center;
+    justify-items: center;
     width: 100%;
 }
 .column1{
@@ -108,7 +110,7 @@ footer{
     display: none;
 } 
 .Tamaño{
-    height: 85%;
+    height: 50%;
 }
 h1{
     font-family: 'Sigmar', cursive;
