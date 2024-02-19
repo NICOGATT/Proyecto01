@@ -8,7 +8,7 @@
 body{
     margin: auto;
     min-height: 100vh;
-    background-image: url(../Img/fondoMain.jpg);
+    background-image: url(../Img/varios/fondoMain.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -25,6 +25,7 @@ body{
     justify-items: center;
 }
 img{
+    max-width: 100%;
     max-width: 100%;
 }
 
