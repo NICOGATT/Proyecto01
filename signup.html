@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DESIGN STATION</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="CSS/signUp.css">
 </head>
@@ -41,27 +44,39 @@
       <main>
         <form action="">
             <div class="nombreYApellido">
-                <label for="nombreApellido" class="form-label">Nombre y apellido</label>
+                <label for="nombreApellido" class="form-label">Nombre y apellido*</label>
                 <input type="text" name="nombreApellido" id="nombreApellido" class="formControl">
             </div>
             <div class="dni">
-                <label for="dni" class="form-label">D.N.I</label>
+                <label for="dni" class="form-label">D.N.I*</label>
                 <input type="text" name="dni" id="dni">
             </div>
             <div class="fechaDeNacimiento">
-                <label for="fechaDeNacimiento">Fecha de nacimiento</label>
+                <label for="fechaDeNacimiento">Fecha de nacimiento*</label>
                 <input type="date" name="fechaDeNacimiento" id="fechaDeNacimiento">
             </div>
             <div class="email">
-                <label for="mail">Correo electronico</label>
+                <label for="mail">Correo electronico*</label>
                 <input type="email" name="mail" id="mail">
-                <label for="mail">Repite su correo electronico</label>
+                <label for="mail">Repite su correo electronico*</label>
                 <input type="email" name="mail" id="mail">
             </div>
             <div class="domicilio">
-                <label for="domicilio">Ingrese su domicilio </label>
+                <label for="domicilio">Ingrese su domicilio*</label>
+                <input type="text" name="domicilio" id="domicilio">
+                <label for="entreCalles">Entre calles</label>
+                <input type="text" name="entreCalles" id="entreCalles">
+                <label for="dpto">Departamento</label>
+                <input type="text" name="dpto" id="dpto">
             </div>
-        </form>
+            <div class="password">
+              <label for="password">Ingrese su contraseña*</label>
+              <input type="password" name="password" id="password">
+              <label for="password">Repite su contraseña*</label>
+              <input type="password" name="password" id="password"> 
+            </div>
+            <input type="submit" value="Registrarse" id="btn-submit">
+          </form>
       </main>
 </body>
 </html>
