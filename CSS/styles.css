@@ -44,14 +44,6 @@ header{
 footer{
     grid-area: footer;
 }
-#escritorio{
-    display: grid;
-    grid-template-columns: repeat(5, 20%);
-    grid-template-rows: 80%;
-    align-items: center;
-    justify-items: center;
-    width: 100%;
-}
 .column1{
     grid-column: 1/2;
 }
@@ -72,16 +64,12 @@ footer{
     align-items: center;
 }
 .bx{
-    grid-column: 3/4;
     font-size: 40px;
 }
 .bx-user-circle{
     grid-column: 1/2;
 }
 .bx-cart{
-    grid-column: 2/3;
-}
-.bx-user-plus{
     grid-column: 2/3;
 }
 #logo-movil{
@@ -129,6 +117,7 @@ footer p{
     background-color: #00bbf9;
     display: flex;
     justify-content: space-around;
+    height: 20%;
 } 
 .content a{
     color: inherit;
@@ -152,59 +141,102 @@ footer p{
     display: block;
     font-size: 3em;
 }
-.menu__item{
-    --clip: 0;
-    overflow: hidden;
+.bx-chevron-right{
+    font-size: 20px;
+    position: absolute;
 }
-.menu__item--active{
-    --tranform: rotate(0);
-    --background: #5e7094; 
+.bx-x-circle{
+    color: white;
+    margin-top: 10px;
 }
-.menu__item--show{
-    background-color: var(--background);
+#menu{
+    background-color: rgb(79, 79, 79);
+    box-shadow: 0 2px 52px black;
+    position: relative;
+    text-align: right;
+    justify-content: flex-start;
+    flex-direction: column;
+    grid-area: header;
+    z-index: 1;
+    height: 400%;
+    width: 99%;
 }
-.menu__links{
-    position: fixed;
-    max-width: 400px;
-    width: 100%;
-    top: 150px;
-    bottom: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.774);
-    overflow-y: auto;
-    display: grid;
-    grid-auto-rows: max-content;
-    transform: translateX(100%);
+#menu--items{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10%;
 }
-
-.menu__links--show{
-    transform: unset;
-    width: 100%;
+.menu--item{
+    position: relative;
+    margin-right: 20px;
+}
+.menu--links{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+/* Estilos para el submenu */
+.submenu{
+    display: none;
+    position: static;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    padding-left: 10px;
+}
+.menu--item:hover .submenu{
+    display: block;
+}
+.menu--inside{
+    list-style: none;
+    padding: 10px;
+}
+.menu--link--inside{
+    color: black;
+}
+.bx-chevron-right{
+    transform: var(--tranform);
+    transition: transform 0.3s;
+}
+.menu--item--show:hover{
+    --tranform: rotate(90deg);
+}
+/* Estilos para el submenu 2 */
+.submenu2{
+    display: none;
+    position: static;
+    background-color: white;
+    box-shadow: 0 2px 5px  rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    padding-left: 10px;
+}
+.menu--inside:hover .submenu2{
+    display: block;
+}
+.menu--inside:hover{
+    --transfom2: rotate(-90deg);
 }
 .bx-chevron-down{
-    margin-left: auto;
-    width: 100%;
+    transform: var(--transfom2);
+    transition: transform 0.3s;
+    font-size: 20px;
+}
+/* Separando las tarjetas */
+.card{
+    margin-bottom: 2%;
 }
 
-.menu__nesting{
-    display: grid;
-    position: unset;
-    width: 100%;
-    transform: translateY(0);
-    height: 0;
-    transition: height .3s;
-}
 
-.menu__link--inside{
-    width: 90%;
-    margin-left: auto;
-    border-left: 1px solid #798499;
-}
-.menu__link{
-    padding: 30px 0;
-    padding-left: 30px;
-    height: auto;
-}
+
+
+
+
+
 #column6{
     display: none;
 }
@@ -229,16 +261,17 @@ footer p{
         grid-template-columns: 3fr minmax(15rem, 1fr);
         grid-template-rows: 18rem 4rem 1fr 4rem;
         grid-template-areas: 
-            "header header"
-            "nav nav"
-            "main aside"
-            "footer footer";
+        "header header"
+        "nav nav"
+        "main aside"
+        "footer footer";
     }
     header{
         grid-area: header;
     }
     #escritorio{
         display: grid;
+        gap: 10px;
     }
     #logo-movil{
         display: none;
@@ -250,75 +283,55 @@ footer p{
     .menu__hamburguer{
         display: none;
     }
-    .menu{
-        color: white;
-        height: 100%;
-        width: 100%;
-        grid-area: nav;
-    }
-    .menu__container{
+    #menu{
         display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
         justify-content: center;
-        align-items: center;
-        width: 100%;
-        max-width: 1200px;
-        height: 100%;
-        margin: 0 auto;
-        grid-area: nav;
-    }
-    .menu__links{
-        height: 100%;
-        width: 100%;
-        transition: transform .5s;
-        display: flex;
-        transform: none;
-        position: static;
-        max-width: 1200px;
         background-color: rgba(255, 255, 255, 0);
+        grid-area: nav;
+        height: 115%;
     }
-    .menu__item{
-        list-style: none;
-        position: relative;
-        height: 100%;
-        --height: 0;
-        
+    nav a {
+        border-bottom: 1px solid #666;
     }
-    .menu__item:hover{
-        --height: max-content;
-        --transform2: rotate(0)
-    }
-    .menu__link{
-        color: black;
-        text-decoration: none;
+    #menu--items{
         display: flex;
-        padding: 0 30px;
-        align-items: center;
-        height: 100%;
+        flex-direction: row;
+        margin-top: 0;
     }
-    .menu__link:hover{
-        background-color: black;
-        color: white;
-    }
-    .bx-chevron-down{
-        transform: var(--transform2);
-        transition: transform .3s;
-        display: block;
-        margin-left: 3px;
-    }
-
-    .menu__nesting{
-        list-style: none;
-        transition: height .3s;
-        height: var(--height);
+    .submenu{
         position: absolute;
-        right: 0;
-        bottom: 0;
-        width: max-content;
-        transform: translateY(100%);
+        top: 100%;
+        left: 0;
+    }
+    .submenu2{
+        position: absolute;
+        top: 0;
+        left: 100%;
+    }
+    .submenuPosition{
+        position: absolute;
+        top: 45%;
+    }
+    #escritorio{
+        display: grid;
+        grid-template-columns: repeat(5, 20%);
+        grid-template-rows: 100%;
+        align-items: center;
+        justify-items: center;
+        width: 100%;
+    }
+    .menu--links{
+        color: black;
+    }
+    .bx-x-circle{
+        display: none;
     }
     
+    
 }
-
 
 
 

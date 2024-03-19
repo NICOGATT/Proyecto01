@@ -4,104 +4,123 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DESIGN STATION</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap"
+      rel="stylesheet">
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../CSS/styles.css" />
-    <link rel="stylesheet" href="../CSS/otoño.css" />
-    <link rel="stylesheet" href="../Boostrap/CSS/bootstrap.min.css" />
-    <title>DESIGN STATION</title>
+      rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/otoño.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
   </head>
   <body>
     <header>
       <div class="container" id="escritorio">
-        <img src="../Img/giniel.webp" alt="giniel" class="column1 Tamaño" />
-        <img src="../Img/RPM.png" alt="RPM" class="column2" />
-        <img src="../Img/RPPro-urban.png" alt="RPPro urban" class="column3" />
-        <img src="../Img/RPPro2.png" alt="RPPro" class="column4" />
+        <img src="../Img/varios/Logos/giniel.webp" alt="giniel" class="column1 Tamaño" />
+        <img src="../Img/varios/Logos/RPM.png" alt="RPM" class="column2" />
+        <img src="../Img/varios/Logos/RPPro-urban.png" alt="RPPro urban" class="column3" />
+        <img src="../Img/varios/Logos/RPPro1.png" alt="RPPro" class="column4" />
         <div class="column5 content">
-          <a href="../signin.html" class="inicio-registro item-1"
-            ><i class="bx bx-user-circle"></i
-          ></a>
-          <i class="bx bx-cart"></i>
-        </div>
-      </div>
-      <div id="logo-movil">
-        <img src="../Img/Logo2.png" alt="Logo design station" />
-        <div class="content" class="column6">
           <a href="signin.html" class="inicio-registro item-1"
             ><i class="bx bx-user-circle"></i
           ></a>
           <i class="bx bx-cart"></i>
         </div>
       </div>
-    </header>
-    <nav class="menu">
-      <section class="menu__container">
-        <ul class="menu__links">
-          <li class="menu__item">
-            <a href="#" class="menu__link">Inicio</a>
-          </li>
-          <li class="menu__item menu__item--show">
-            <a href="#" class="menu__link">RPM(Ropa Para Mascotas)<i class='bx bx-chevron-down'></i></a>
-            <ul class="menu__nesting">
-              <li class="menu__inside2 menu__item--show">
-                <a href="#" class="menu__link menu__link--inside">Catalogo por mayor</a>
-                <ul class="menu__nesting2 menu__inside--show">
-                  <li class="menu__inside">
-                    <a href="Tienda/accesorios.html" class="menu__link menu__link--inside">Accesorios</a>
-                  </li>
-                  <li class="menu__inside">
-                    <a href="Tienda/Chalecos.html" class="menu__link menu__link--inside">Chalecos</a>
-                  </li>
-                  <li class="menu__inside">
-                    <a href="Tienda/moises.html" class="menu__link menu__link--inside">Moises</a>
-                  </li>
-                  <li class="menu__inside">
-                    <a href="Tienda/Camperas.html" class="menu__link menu__link--inside">Camperas</a>
-                  </li>
-                  <li class="menu__inside">
-                    <a href="Tienda/busos.html" class="menu__link menu__link--inside">Busos</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="menu__inside">
-                <a href="#" class="menu__link menu__link--inside">Catalogo por menor</a>
-                <ul class="menu__nesting2 menu__inside--show">
-                  <li class="menu__inside">
-                    <a href="Tienda/accesorios.html" class="menu__link menu__link--inside">Accesorios</a>
-                  </li>
-                  <li class="menu__inside">
-                    <a href="Tienda/Chalecos.html" class="menu__link menu__link--inside">Chalecos</a>
-                  </li>
-                  <li class="menu__inside">
-                    <a href="Tienda/moises.html" class="menu__link menu__link--inside">Moises</a>
-                  </li>
-                  <li class="menu__inside">
-                    <a href="Tienda/Camperas.html" class="menu__link menu__link--inside">Camperas</a>
-                  </li>
-                  <li class="menu__inside">
-                    <a href="Tienda/busos.html" class="menu__link menu__link--inside">Busos</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu__link">RPPRO(Ropa Para Profesionales)<i class='bx bx-chevron-down'></i></a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu__link">GINIE'L<i class='bx bx-chevron-down'></i></a>
-          </li>
-          <li class="menu__item">
-            <a href="Contacto o info/Contacto.html" class="menu__link">Contacto</a>
-          </li>
-        </ul>
-        <div class="menu__hamburguer">
+      <div id="logo-movil">
+        <img src="../Img/varios/Logos/Logo2.png" alt="Logo design station" />
+        <div id="menu__hamburguer">
           <i class='bx bx-menu'></i>
         </div>
-      </section>
+      </div>
+    </header>
+    <nav id="menu">
+      <i class='bx bx-x-circle menu--item'></i>
+      <ul id="menu--items">
+        <li class="menu--item">
+          <a href="../index.html" class="menu--links">Inicio</a>
+        </li>
+        <li class="menu--item menu--item--show">
+          <a href="#" class="menu--links"
+            >RPM(Ropa Para Mascotas)<i class="bx bx-chevron-right"></i
+          ></a>
+          <ul class="submenu">
+            <li class="menu--inside">
+              <a href="#" class="menu--links menu--link--inside"
+                >Catalogo por mayor<i class="bx bx-chevron-down"></i
+              ></a>
+              <ul class="submenu2">
+                <li class="menu--inside menu--inside2">
+                  <a href="" class="menu--links menu--link--inside"
+                    >Accesorios</a
+                  >
+                </li>
+                <li class="menu--inside menu--inside2">
+                  <a href="" class="menu--links menu--link--inside">Chalecos</a>
+                </li>
+                <li class="menu--inside menu--inside2">
+                  <a href="" class="menu--links menu--link--inside">Moises</a>
+                </li>
+                <li class="menu--inside menu--inside2">
+                  <a href="" class="menu--links menu--link--inside">Camperas</a>
+                </li>
+                <li class="menu--inside menu--inside2">
+                  <a href="" class="menu--links menu--link--inside">Busos</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu--inside">
+              <a href="#" class="menu--links menu--link--inside"
+                >Catalogo por menor<i class="bx bx-chevron-down"></i
+              ></a>
+              <ul class="submenu2 submenuPosition">
+                <li class="menu--inside menu--inside2">
+                  <a href="" class="menu--links menu--link--inside"
+                    >Accesorios</a
+                  >
+                </li>
+                <li class="menu--inside menu--inside2">
+                  <a href="" class="menu--links menu--link--inside">Chalecos</a>
+                </li>
+                <li class="menu--inside menu--inside2">
+                  <a href="" class="menu--links menu--link--inside">Moises</a>
+                </li>
+                <li class="menu--inside menu--inside2">
+                  <a href="" class="menu--links menu--link--inside">Camperas</a>
+                </li>
+                <li class="menu--inside menu--inside2">
+                  <a href="" class="menu--links menu--link--inside">Busos</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="menu--item menu--item--show">
+          <a href="#" class="menu--links"
+            >RPPRO(Ropa para profesionales)<i class="bx bx-chevron-right"></i
+          ></a>
+          <ul class="submenu">
+            <li class="menu--inside">
+              <a href="" class="menu--links menu--link--inside">Chaquetas</a>
+            </li>
+            <li class="menu--inside">
+              <a href="" class="menu--links menu--link--inside">Pantalones</a>
+            </li>
+            <li class="menu--inside">
+              <a href="" class="menu--links menu--link--inside">Delantales</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu--item">
+          <a href="contactMe.html" class="menu--links">GINIE'L</a>
+        </li>
+        <li class="menu--item">
+          <a href="" class="menu--links">Contacto</a>
+        </li>
+      </ul>
     </nav>
     <main class="container">
         <div id="contenedor">
@@ -190,6 +209,6 @@
         </div>
     </main>
 
-    <script src="../Boostrap/JS/bootstrap.bundle.min.js"></script>
+    <script src="../js/script.js"></script>
   </body>
 </html>

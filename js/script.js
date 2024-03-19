@@ -1,43 +1,24 @@
-(function () {
-    const listElements = document.querySelectorAll(".menu__item--show");
-    const list = document.querySelector(".menu__links")
-    const menu = document.querySelector(".menu__hamburguer")
-    const addClick = () =>{
-        listElements.forEach((element) => {
-            element.addEventListener("click", () => {
-                let submenu = element.children[1]
-                let height = 0
-
-                element.classList.toggle("menu__item--active")
-                if (submenu.clientHeight === 0){
-                    height = submenu.scrollHeight
-                }
-                submenu.style.height = `${height}px`
-            })
-        })
-    }
-    const deleteHeight = () => {
-        listElements.forEach((element) => {
-            if(element.children[1].getAttribute("style")){
-                element.children[1].removeAttribute("style")
-                element.classList.remove("menu__item--active")
-            }
-        })
-    }
-    window.addEventListener("resize", () =>{
-        if(window.innerWidth > 800){
-            deleteHeight()
-            if(list.classList.contains("menu__links--show")){
-                list.classList.remove("menu__links--show")
-            } else {
-                addClick()
-            }
+document.addEventListener("DOMContentLoaded", function(){
+    const toggleBtn = document.getElementById("menu__hamburguer");
+    const nav = document.querySelector("nav");
+    toggleBtn.addEventListener("click", function() {
+        if (window.innerWidth < 768) {
+            nav.style.display = (nav.style.display === "flex") ? "none" : "flex"
         }
     })
-    if(window.innerWidth <= 800){
-        addClick()
-    }
-    menu.addEventListener("click", () => {
-        list.classList.toggle("menu__links--show")
+    window.addEventListener("resize", function(){
+        if(window.innerWidth >= 768) {
+            nav.style.display = "flex";
+        } else {
+            nav.style.display = "none";
+        }
+    })
+    const circulo = document.querySelector(".bx-x-circle"); 
+    circulo.addEventListener("click", function(){
+       if (nav.style.display === "none") {
+            nav.style.display = "block"; 
+       } else {
+            nav.style.display = "none"; 
+       }
     })
 })
