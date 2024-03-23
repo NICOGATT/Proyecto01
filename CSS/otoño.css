@@ -42,41 +42,11 @@ p{
     background-color: rgba(24, 129, 228, 0.61);
 }
 .articulo1 a{
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
     text-decoration: none;
     color: inherit;
     padding: 0;
-}
-.t1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.t2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.t3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.t4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.t5{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.t6{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .boton{
     width: 98%;
@@ -102,3 +72,16 @@ p{
 .articulo1{
     padding: 10px;
 }
+/* Alineando la imagen de wsp*/
+.block{
+   grid-area: footer;
+}
+#logoWsp{
+    width: 3.5%;
+}
+/* Aumentando la burbuja en accesorios */
+#burbuja2{
+    padding-left: 20px;
+}
+
+
