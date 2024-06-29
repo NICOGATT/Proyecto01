@@ -289,7 +289,9 @@ footer p{
 .contenedor{
     width: 100%;
 }
-
+.card{
+    width: 50%;
+}
 
 
 
@@ -381,8 +383,38 @@ footer p{
     .bx-x-circle{
         display: none;
     }
-    
-    
+    .tamaño{
+        width: 10%;
+    }
+    /*realizando el carrito*/
+    #carrito{
+        padding: 1%;
+        width: 20%;
+        border: 2px solid black;
+        background-color: white;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    /*Hover para la tienda*/
+    /* .bx-cart:hover #carrito{
+        display: block;
+    } */
+    .totalCarrito { 
+        display: flex;
+        justify-content: space-between;
+    }
+    #finalizarCompra{
+        display: flex;
+        justify-content: center;
+    }
+    #compraFinalizada{
+        padding: 1%;
+        padding-bottom: 3%;
+        background-color: gray;
+        font-size: 60%;
+    }
 }
 
 

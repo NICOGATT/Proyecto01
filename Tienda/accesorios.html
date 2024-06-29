@@ -27,7 +27,16 @@
           <a href="signin.html" class="inicio-registro item-1"
             ><i class="bx bx-user-circle"></i
           ></a>
-          <i class="bx bx-cart"></i>
+          <i class="bx bx-cart">
+            <div id="carrito" class="carrito">
+              <h4 class="suCarrito">Su carrito de compras</h4>
+              <hr>
+              <div id="totalCarrito">
+                <p class="subtotal"><b>Subtotal</b></p>
+                <p id="precio"><b>$0</b></p>
+              </div>
+            </div>
+          </i>
         </div>
       </div>
       <div id="logo-movil">
@@ -41,7 +50,7 @@
       <i class='bx bx-x-circle menu--item'></i>
       <ul id="menu--items">
         <li class="menu--item">
-          <a href="../index.html" class="menu--links">Inicio</a>
+          <a href="../index.html" class="menu--links" id="inicio">Inicio</a>
         </li>
         <li class="menu--item menu--item--show">
           <a href="#" class="menu--links"
