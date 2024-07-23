@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../CSS/styles.css">
   </head>
   <body>
-    <header>
+    <header class = "cabezal">
       <div class="container" id="escritorio">
         <img src="../Img/varios/Logos/giniel.webp" alt="giniel" class="column1 Tamaño" />
         <img src="../Img/varios/Logos/RPM.png" alt="RPM" class="column2" />
@@ -31,9 +31,12 @@
             <div id="carrito" class="carrito">
               <h4 class="suCarrito">Su carrito de compras</h4>
               <hr>
-              <div id="totalCarrito">
+              <div id="totalCarrito" class="totalCarrito">
                 <p class="subtotal"><b>Subtotal</b></p>
                 <p id="precio"><b>$0</b></p>
+              </div>
+              <div id="finalizarCompra">
+                <button id="compraFinalizada">Finalizar compra</button>
               </div>
             </div>
           </i>
@@ -140,7 +143,7 @@
     </aside>
     <main class="container">
         <div id="contenedor">
-          <div class="articulo1">
+          <div class="articulo1" id="articulo1">
             <div class="cajaimg">
               <img
               src="../Img/catalogo/bolso-transportador.jpg"
@@ -149,12 +152,12 @@
             />
             </div>
             <div class="text">
-              <h3>Bolso transportador</h3>
+              <h3 class="titulo">Bolso transportador</h3>
               <a href="">Ver mas</a>
             </div>
             <div class="boton info">
-              <p>$6600</p>
-              <button>Añadir al carrito</button>
+              <p id = "precio1">$6600</p>
+              <button id="añadirAlCarrito">Añadir al carrito</button>
             </div>
           </div>
           <div class="articulo2"></div>
